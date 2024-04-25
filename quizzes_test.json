@@ -1,0 +1,85 @@
+[
+  {
+    "available_date": "2020-05-17T00:00:00",
+    "due_date": "2020-05-23T00:00:00",
+    "id": "3c7ee0c404df6a3ef2d4f347db05c7db",
+    "last_updated": "2024-04-25T18:25:34.997970",
+    "sections": [
+      {
+        "answers": [
+          {
+            "id": "dab5a82fb85236f6b30b2230f77e6e27",
+            "is_correct": true,
+            "text": "Orange"
+          },
+          {
+            "id": "b0ce11795a1ee8aac221a40367e17475",
+            "is_correct": false,
+            "text": "Blue"
+          }
+        ],
+        "id": "396576c3ee919cc139d6a297784c3808",
+        "last_updated": "2024-04-25T18:25:34.998943",
+        "text": "What color is that?",
+        "title": "Question 1-1 Title"
+      },
+      {
+        "answers": [
+          {
+            "id": "c21ec428ef74301235a5cd227ffdbdba",
+            "is_correct": true,
+            "text": "Blue"
+          },
+          {
+            "id": "29d38b6047ff865f1d89ec88ef30d504",
+            "is_correct": false,
+            "text": "Gray"
+          }
+        ],
+        "id": "e49325cf22167dc658622ede2ab0bfa8",
+        "last_updated": "2024-04-25T18:25:34.999954",
+        "text": "What is your favorite color?",
+        "title": "Question 1-2 Title"
+      }
+    ],
+    "text": "Here is some text for quiz 1",
+    "title": "Quiz 1 Title"
+  },
+  {
+    "available_date": "2022-07-21T00:00:00",
+    "due_date": "2022-07-25T00:00:00",
+    "id": "293c394a3b709f4bf64c359ab47e2135",
+    "last_updated": "2024-04-25T18:25:34.997970",
+    "sections": [
+      {
+        "answers": [
+          {
+            "id": "580be32c6ab1f747d3cc5285aeb8a599",
+            "is_correct": false,
+            "text": "Versailles"
+          },
+          {
+            "id": "e97deb9ace645242c4ca43b617b78b4b",
+            "is_correct": true,
+            "text": "Paris"
+          }
+        ],
+        "id": "1db48fe620ce3f2bc3042be78fa12b0e",
+        "last_updated": "2024-04-25T18:25:35.001938",
+        "text": "What is the capital of France?",
+        "title": "Question 2 Title"
+      }
+    ],
+    "text": "Here is some text for quiz 2",
+    "title": "Quiz 2 Title"
+  },
+  {
+    "available_date": "2024-09-25T00:00:00",
+    "due_date": "2024-10-03T00:00:00",
+    "id": "f63f71de86e03453467b0e999c89b6ad",
+    "last_updated": "2024-04-25T18:25:34.998943",
+    "sections": [],
+    "text": "Here is some text for quiz 3",
+    "title": "Quiz 3 Title"
+  }
+]
