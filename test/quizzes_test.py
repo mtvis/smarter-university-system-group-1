@@ -62,17 +62,17 @@ class QuizzesTest(unittest.TestCase):
         self.ctrl.add_answer(question_id, b"test", b"test")
         self.assertEquals(self.ctrl.get_quiz_by_id(quiz_id), self.ctrl.get_quizzes()[0])
 
-    # Fails on line
+    # Fails on line 19 in __init__() function
     def test_expose_failure_05(self):
+        #Create a fake malformed file to test the QuizzesController __init__ method
         test_text = "{'test':""} }"
         save_data("fake.json", test_text)
         self.ctrl = QuizzesController("fake.json")
         self.ctrl.add_quiz("Quiz 1 Title", None, 
                                      datetime(year=2020, month=5, day=17), datetime(year=2020, month=5, day=23))
         quizzes = self.ctrl.get_quizzes()
-        # Check that two quizzes were created
+        # Check that one quizzes were created
         self.assertEquals(len(quizzes), 1, "There is exactly two quizzes.")
-
 
 
 if __name__ == '__main__':
